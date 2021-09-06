@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="website.css">
+        <title>
+            DevOps Exp 1
+        </title>
+    </head>
+    <body>
+        <script>
+            function validate() {
+                var username = document.getElementById("username").value;
+                var password = document.getElementById("password").value;
+                if (username != "" && password != "") {
+                    if (username == "harshit" && password == "sonawala") {
+                        alert("Login Successful");
+                    }
+                    else {
+                        alert("Either username or password is incorrect");
+                    }
+                } else {
+                    alert("Please enter username and password");
+                }
+            }
+        </script>
+        <div class="mycard">
+            <div class="circleavatar">
+                <img src="circleavatar.png" alt="Avatar" height="100px" width="100px">
+            </div>
+            <h2>Login</h2>
+            <p>Harshit TYIT-64 sample webpage</p>
+            <div class="myform">
+                <label for="username">Username: </label>
+                <input type="text" id="username" placeholder="Enter username">
+                <label for="password">Password: </label>
+                <input type="password" id="password" placeholder="Enter password">
+                <button onclick="validate()">Submit</button>
+            </div>
+        </div>
+    </body>
+</html>
