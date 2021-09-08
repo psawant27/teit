@@ -1,0 +1,42 @@
+
+        body {
+            margin: 0;
+        }
+        .ul-list {
+            list-style-type: none;
+            margin: 0;
+            background: #6F8AB7;
+        }
+        .li-list-item {
+            display: inline-block;
+            padding: 10px;
+        }
+        .a-link {
+            text-decoration: none;
+            color: #EEE;
+        }
+        .div-footer {
+            margin-top: 30px;
+            height: 40px;
+            background: #6F8AB7;
+            text-align: center;
+            line-height: 40px;
+        }
+        .div-box {
+            margin: 25px;
+        }
+        .div-card {
+            display: inline-block;
+            margin: 15px;
+            width: 31%;
+        }
+        .img {
+            height: 250px;
+            width: 400px;
+        }
+        .text {
+            text-align: justify;
+            line-height: 1.5;
+            color: #3E3E3E;
+        }
+    
