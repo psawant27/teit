@@ -1,0 +1,162 @@
+<doctype>
+<html>
+<title>Microproject</title>
+<body background="cr1.jpg">
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="http://www.espncricinfo.com/ci/content/story/news.html">News</a></li>
+  <li><a href="https://in.bookmyshow.com/sports/indian-cricket/t20-premier-league-mi">Booking</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Cricket">About</a></li>
+  <li><a href="http://www.cricbuzz.com/cricket-match/live-scores">Live Score</a></li>
+  <li><a href="http://www.hotstar.com/sports/cricket">Live Match Videos</a></li>
+</ul>
+
+<center><a href ="https://en.wikipedia.org/wiki/Cricket"><img src="cricket.jpg"width="1100" height="400"></a></h2></center><br>
+
+<center> <img src="ipl-logo-759.jpg"width="400" height="200"></h2></center><br>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+<body>
+
+<h2 class="w3-center">IPL Teams</h2>
+
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="csk.jpg" width="500" height="300">
+  <img class="mySlides" src="mumbai.jpg" width="500" height="300">
+  <img class="mySlides" src="rr.jpg" width="500" height="300">
+  <img class="mySlides" src="dd.jpg" width="500" height="300">
+  <img class="mySlides" src="PUNJAB.jpg" width="500" height="300">
+  <img class="mySlides" src="SRH.jpg" width="500" height="300">
+  <img class="mySlides" src="RCB.jpg" width="500" height="300">
+  <img class="mySlides" src="KKR.jpg" width="500" height="300">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+ 
+
+<style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+
+<table>
+  <tr>
+    <th>Name of Team</th>
+    <th>Logo</th>
+    <th>Captain</th>
+  </tr>
+  <tr>
+    <td><a href="http://www.espncricinfo.com/ci/content/squad/1134853.html">Chennai Super Kings</a></td>
+    <td><center><img src="csk.jpg" style="width:20%"></center></td>
+    <td>M.S.Dhoni</td>
+  </tr>
+  <tr>
+    <td><a href="http://www.espncricinfo.com/ci/content/squad/1134861.html">Mumbai Indians</a></td>
+    <td><center><img src="mumbai.jpg"style="width:20%"></center></td>
+    <td>Rohit Sharma</td>
+  </tr>
+  <tr>
+    <td><a href="http://www.espncricinfo.com/ci/content/squad/1134860.html">Rajasthan Royals</a></td>
+    <td><center><img src="RR.jpg"style="width:20%"></center></td>
+    <td>Steven Smith</td>
+  </tr>
+  <tr>
+    <td><a href="http://www.espncricinfo.com/ci/content/squad/1134858.html">Delhi Daredevils</a></td>
+    <td><center><img src="dd.jpg"style="width:20%"></center></td>
+    <td>Gautam Gambhir</td>
+  </tr>
+  <tr>
+    <td><a href="http://www.espncricinfo.com/ci/content/squad/1134852.html">Kings XI Punjab</a></td>
+    <td><center><img src="PUNJAB.jpg"style="width:20%"></center></td>
+    <td>R Ashwin</td>
+  </tr>
+  <tr>
+    <td><a href="http://www.espncricinfo.com/ci/content/squad/1134862.html">Sun risers Hyderabad </a></td>
+    <td><center><img src="SRH.jpg"style="width:20%"></center></td>
+    <td>David Warner</td>
+  </tr>
+  <tr>
+    <td><a href="http://www.espncricinfo.com/ci/content/squad/1134829.html">Royal Challengers Bangalore</a></td>
+    <td><center><img src="RCB.jpg"style="width:20%"></center></td>
+    <td>Virat Kohli</td>
+  </tr>
+  <tr>
+    <td><a href="http://www.espncricinfo.com/ci/content/squad/1134830.html">Kolkata Knight Riders </a></td>
+    <td><center><img src="KKR.jpg"style="width:20%"></center></td>
+    <td>Dinesh Karthik</td>
+  </tr>
+</table>
+</body>
+</html>
