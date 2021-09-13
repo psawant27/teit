@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
+
+body {margin:0;
+  background-image: url(bank.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;  
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.lava-text {
+    
+     background: url(http://www.textures4photoshop.com/tex/thumbs/lava-magma-seamless-texture-free-download-70.jpg) no-repeat center center;
+    
+     background-size: cover;
+    
+     color: #fff;
+    
+     -webkit-text-fill-color: transparent;
+    
+     -webkit-background-clip: text;
+    
+     -moz-background-clip:text;
+    
+     background-clip:text; 
+    
+     font-family:Catamaran,sans-serif;
+    
+     font-size:5em;
+    
+     padding:0;
+    
+     margin:0;
+    
+     text-align:center;
+    
+     -webkit-text-stroke: 3px #C0C0C0 ;
+
+     padding-top: 100px;
+     padding-left: 100px;
+     max-width: 1300px;
+
+     font-family: 'Times New Roman', Times, serif;  
+
+     padding-bottom: 100px;
+     
+
+    
+    }
+
+/* 100 Days CSS Button N 045 */
+
+.glow-on-hover {
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 30%;
+    background-color: rgb(0, 60, 100);
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+  /* end */
+
+.jelly-btn {
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 30%;
+    background-color: rgb(0, 60, 100);
+    color: #fff;
+    
+}
+
+.left{
+  left: 10px;
+  position:fixed;
+  }
+  .spark {
+      margin-top: 10px;
+      width: 90px;
+      height: 80px;
+  }
+  .navbar{
+      display:inline-block;
+      padding: 10px;
+  }
+  .navbar li{
+      display: inline-block;
+  }
+  .navbar li a{
+      font-size: 30px;
+      padding: 5px;
+      color: cornflowerblue;
+      text-decoration: none;
+      }
+  .navbar li a:hover, .navbar li a:active{
+  color: grey;
+  text-decoration:none;
+  
+  }
+
+  .right{
+  display: inline-block;
+  right: 20px;
+  position: absolute;
+  }
+
+  .bottom{
+      top: 92%;
+      padding-left: 500px;
+      padding-top: 100px;
+      color: coral;
+      font-size: 25px;
+      
+  }
