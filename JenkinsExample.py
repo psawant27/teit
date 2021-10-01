@@ -1,0 +1,1 @@
+print("This is an example of Jenkins for DevOps LAB")
